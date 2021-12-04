@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Inmobiliario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6db9bf54ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!----------------------------------------------------------CABEZERA PRINCIPAL------------------------------------------------->
+
+    <div class="cabeza">
+        <div class="container">
+            <div class="row">
+                <div class="col  p-0">
+
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" target="_black"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" target="_black"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_black"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.twitter.com/" target="_black"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+                <div class="col p-0">
+
+                    <div class="mail">
+                        <a href="contactos.html"><i class="fas fa-envelope"></i></a>
+                        <span>Mundoinmobiliario@outlook.com</span>
+                    </div>
+
+                </div>
+                <div class="col p-0">
+
+                    <div class="tel">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+604) 5784625</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------CABEZERA SECUNDARIA LOGO Y NAVEGACION------------------------------------------->
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="index.html"><i class="fab fa-medium-m"></i></a>
+                    <span>Mundo Inmobiliario</span>
+                </div>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="menu">
+                    <li><a class="active" href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quienes Somos</a>
+                        <ul class="sub-menu">
+                            <li><a href="#historia">Historia</a></li>
+                            <li><a href="#mision">Mision</a></li>
+                            <li><a href="#vision">Vision</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a>
+                        <ul class="sub-menu">
+                            <li><a href="#arriendos">Arriendos</a></li>
+                            <li><a href="#ventas">Ventas</a></li>
+                            <li><a href="#avaluos">Avaluos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="registra-tu-inmueble.html">Registra tu Inmueble</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--------------------------------------------BANNER PRINCIPAL, TEXTO DE MARKETING y BUSQUEDA----------------------------------------------->
+    <section class="banner">
+        <div class="container">
+            <div class="cont-ban">
+                <div class="post">
+                    <img src="../img/imagen-ban.png" alt="">
+                </div>
+                <div class="publi">
+                    <h2>Marketing Inmobiliario</h2>
+                    <h3>Eleva tus Ventas y Expectativas</h3>
+                    <button>Solicita mas Información</button>
+                </div>
+            </div>
+            <div class="busqueda">
+                <div class="container">
+                    <div class="conta-busq">
+                        <div class="busq-item">
+                            <label>Tipo </label>
+                            <select class="tipo" name="tipo">
+                                <option selected value>Todos</option>
+                                <option value="apartamento">Apartamento</option>
+                                <option value="apartaestudio">Aparta Estudio</option>
+                                <option value="casa">Casa</option>
+                                <option value="local">Local</option>
+                                <option value="bodega">Bodega</option>
+                                <option value="oficina">Oficina</option>
+                                <option value="lote">Lote</option>
+                            </select>
+                        </div>
+                        <div class="busq-item">
+                            <label>Gestion</label>
+                            <select class="tipo" name="gestion">
+                                <option selected value>Todos</option>
+                                <option value="venta">Venta</option>
+                                <option value="arriendo">Arriendo</option>
+                            </select>
+                        </div>
+                        <div class="busq-item">
+                            <label>Municipio</label>
+                            <select class="tipo" name="municipio">
+                                <option selected value>Todos</option>
+                                <option value="medellin">Medellin</option>
+                                <option value="bello">Bello</option>
+                                <option value="envigado">Envigado</option>
+                                <option value="itagui">Itagui</option>
+                                <option value="niquia">Niquia</option>
+                            </select>
+                        </div>
+                        <div class="busq-item">
+                            <label>Zona</label>
+                            <select class="tipo" name="zona">
+                                <option selected value>Todos</option>
+                                <option value="norte">Norte</option>
+                                <option value="sur">Sur</option>
+                                <option value="centro">Centro</option>
+                                <option value="oriente">Oriente</option>
+                                <option value="occidente">Occidente</option>
+                                <option value="noroccidente">Noroccidente</option>
+                            </select>
+                        </div>
+                        <div class="button">
+                            <button>Buscar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------CUERPO PRINCIPAL DE LA PAGINA MAIN-------------------------------------------------->
+
+    <main>
+        <!--------------------Leyenda principal--------------------------------->
+        <div class="container">
+            <section class="sec-principal">
+                <div class="cont-img-decor">
+                    <img src="../img/pngwing.com.png" />
+                    <p>
+                        Especialistas en Arriendos, Ventas, Avaluos en zona rural y urbana,
+                        casa finca y amoblados.
+                    </p>
+
+                    <img src="../img/pngwing.com.png" />
+
+                    <h2>El mas Amplio Portafolio de de Viviendas</h2>
+                    <h3>Conosca nuestra Variedad de Oficinas y Viviendas</h3>
+                    <h3>
+                        Actualmente con mas <span>480</span> Viviendas en Arriendo y mas de
+                        <span>80</span> Oficinas.
+                    </h3>
+                </div>
+            </section>
+            <!--------------------Seccion de circulos-------------------------------->
+            <section class="sec-secundaria">
+                <div class="img-zon"><img src="../img/propietarios.png" alt="" /></div>
+                <div class="img-zon"><img src="../img/arrendatarios.png" alt="" /></div>
+                <div class="img-zon"><img src="../img/ayuda.png" alt="" /></div>
+            </section>
+            <!--------------------Seccion de Inmuebles Destacados-------------------->
+            <section class="sec-terciaria">
+                <div class="tittle-sec-1">
+                    <h2 class="animate__animated animate__fadeInLeft">Inmuebles Destacados</h2>
+                </div>
+            </section>
+            <section class="section-img">
+                <div class="conten1-img">
+                    <figure class="figure1">
+                        <img src="../img/img-desta/img1.jpg" />
+                        <div class="capa">
+                            <h2>SAN JOAQUIN</h2>
+                            <p>
+                                Propiedad ubicada en unos de los mejores sectores de la ciudad, con gran accesibildad de
+                                transportes.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conten1-img">
+                    <figure class="figure2">
+                        <img src="../img/img-desta/img2.jpg" />
+                        <div class="capa">
+                            <h2>ROBLEDO</h2>
+                            <p>
+                                Propiedad ubicada a cerca a las mejores universidad de la ciudad y con alto flujo de
+                                transporte.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conten1-img">
+                    <figure class="figure3">
+                        <img src="../img/img-desta/img3.jpg" />
+                        <div class="capa">
+                            <h2>BELEN</h2>
+                            <p>
+                                Unas de los mejores sectores con casas campestres y con los mejores restaurantes a su
+                                alrededor.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conten1-img">
+                    <figure class="figure4">
+                        <img src="../img/img-desta/img2.jpg" />
+                        <div class="capa">
+                            <h2>LAURELES</h2>
+                            <p>
+                                Propiedad ubicada a cerca a las mejores universidad de la ciudad y con alto flujo de
+                                transporte.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conten1-img">
+                    <figure class="figure5">
+                        <img src="../img/img-desta/img3.jpg" />
+                        <div class="capa">
+                            <h2>POBLADO</h2>
+                            <p>
+                                Unas de los mejores sectores con casas campestres y con los mejores restaurantes a su
+                                alrededor.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conten1-img">
+                    <figure class="figure6">
+                        <img src="../img/img-desta/img1.jpg" />
+                        <div class="capa">
+                            <h2>CONQUISTADORES</h2>
+                            <p>
+                                Propiedad ubicada en unos de los mejores sectores de la ciudad, con gran accesibildad de
+                                transportes.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+            <!--------------------Seccion de Galerias de Interiores------------------>
+            <section class="titulo-galeria">
+                <div>
+                    <h2>Galeria de Interiores</h2>
+                </div>
+            </section>
+            <seccion class="seccion-galeria">
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img1.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #1</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img2.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las.
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #2</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img3.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #3</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img4.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #4</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img5.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #5</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__father">
+                    <div class="card">
+                        <div class="card__front" style="background-image: url(../img/galeria-inte/img6.jpg)">
+                            <div class="bg"></div>
+                            <div class="body__card_front">
+                                <h1>
+                                    Habitacion ubicada en el sector poblado, con facil acceso a transporte y cerca de
+                                    las principales universidades de las
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card__back">
+                            <div class="body__card_back">
+                                <h1>Habitacion #6</h1>
+                                <p>
+                                    Cuenta con Baños interno, televisor, escritorio, cama doble, mesa de noche, closeth,
+                                    piso en tapete.
+                                </p>
+                                <input type="button" value="Leer Más" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </seccion>
+            <section class="aliados">
+                <div class="title-ali">
+                    <h2>Nuestros Aliados</h2>
+                </div>
+                <div class="img-ali">
+                    <div><img src="../img/Aliados/sura.png" alt="Sura"></div>
+                    <div><img src="../img/Aliados/Fenalco.jpg" alt="Fenalco"></div>
+                    <div><img src="../img/Aliados/Logo_Lonja.png" alt="La Lonja"></div>
+                    <div><img src="../img/Aliados/Logo_Libertador.jpg" alt="El Libertador"></div>
+                    <div><img src="../img/Aliados/logo_fianzacredito.png" alt="Fianzacredito"></div>
+                    <div><img src="../img/Aliados/camara_nacional_inmobiliaria.png" alt="Camara Nacional"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!------------------------------------------------------FOOTER------------------------------------------------------------->
+
+    <footer class="footer">
+      
+
+        <div class="container">
+  
+  
+          <div class="footer-logo">
+            <div class="logo-i">
+            <i class="fab fa-medium-m"></i>
+            </div>        
+            <h2>Mundo Inmobiliario</h2>
+          </div>
+  
+          <div class="footer-grid">
+  
+            <div class="footer-info">
+              <p>
+                Si quieres hablar con nosotros, te invitamos a visitarnos en
+                cualquiera de nuestras oficinas. También puedes contactarnos por
+                teléfono o correo electrónico. Te esperamos para poder empezar a
+                ofrecerte soluciones.
+              </p>
+              <div class="footer-icon">
+                <div class="phone">
+                <span><i class="fas fa-phone-alt"></i></span>
+                <h2>(+604) 3485261</h2>
+              </div>
+              <div class="e-mail">
+                <span ><a href="contactos.html"><i class="fas fa-envelope"></i></a></span>
+                <span><a href="contactos.html"><h2>Correo@hotmail.com</h2></a></span>
+              </div>
+                <a href="https://www.facebook.com/" target="_black"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_black"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_black"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitter.com/" target="_black"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+  
+            <div class="footer-sedes">
+              <h2>Oficinas</h2>
+              <a href="#">Poblado</a>
+              <a href="#">Laureles</a>
+              <a href="#">Envigado</a>
+              <a href="#">Sabaneta</a>
+              <a href="#">Itagui</a>
+            </div>
+  
+            <div class="footer-nav">
+              <a href="index.html">Inicio</a>
+              <a href="quienes-somos.html">Quienes Somos</a>
+              <a href="servicios.html">Servicios</a>
+              <a href="registra-tu-inmueble.html">Registra tu Inmueble</a>
+              <a href="contactos.html">Contactos</a>
+            </div>
+  
+            <div class="footer-legal">
+              <span><a href="#">Aviso Legal</a></span>
+              <a href="#">Politica de Cookies</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <div class="container">
+            <p>Copyright @ 2021 - Diseño Web Realizado por <b> Orlando Contreras </b></p>
+          </div>
+        </div>
+      </footer>
+    <script src="../js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

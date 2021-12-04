@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Inmobiliario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6db9bf54ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!----------------------------------------------------------CABEZERA PRINCIPAL------------------------------------------------->
+
+    <div class="cabeza">
+        <div class="container">
+            <div class="row">
+                <div class="col  p-0">
+
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" target="_black"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" target="_black"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_black"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.twitter.com/" target="_black"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+                <div class="col p-0">
+
+                    <div class="mail">
+                        <a href="contactos.html"><i class="fas fa-envelope"></i></a>
+                        <span>Mundoinmobiliario@outlook.com</span>
+                    </div>
+
+                </div>
+                <div class="col p-0">
+
+                    <div class="tel">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+604) 5784625</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------CABEZERA SECUNDARIA LOGO Y NAVEGACION------------------------------------------->
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="./index.html"><i class="fab fa-medium-m"></i></a>
+                    <span>Mundo Inmobiliario</span>
+                </div>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="menu">
+                    <li><a id="link_active" href="./index.html">Inicio</a></li>
+                    <li><a href="./quienes-somos.html">Quienes Somos</a>
+                        <ul class="sub-menu">
+                            <li><a href="#historia">Historia</a></li>
+                            <li><a href="#mision">Mision</a></li>
+                            <li><a href="#vision">Vision</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./servicios.html">Servicios</a>
+                        <ul class="sub-menu">
+                            <li><a href="#arriendos">Arriendos</a></li>
+                            <li><a href="#ventas">Ventas</a></li>
+                            <li><a href="#avaluos">Avaluos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./registra-tu-inmueble.html">Registra tu Inmueble</a></li>
+                    <li><a href="./contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contato-img">
+            <img src="../img/contacto2.jpg" alt="Contactos">
+        </div>
+
+        <div class="titulo-contacto">
+            <h1>Comunicate Con Nosotros</h1>
+            <p>Envíenos su mensaje y pronto uno de nuestros asesores lo estará contactando.</p>
+        </div>
+        <div class="cuerpo-contacto">
+            <div class="conta-in-contacto">
+
+                <form class="form-contacto">
+
+                    <div class="form-1-contacto">
+                        <div class="name">
+                            <div class="name-1">
+                                <label for="nombre">Nombres : </label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Indique su Nombre">
+                                <label for="apellidos">Apellidos : </label>
+                                <input type="text" name="apellidos" id="apellidos" placeholder="Indique sus Apellidos">
+                            </div>
+                            <div class="name-2">
+                                <label for="email">Email : </label>
+                                <input type="email" name="email" id="email" placeholder="Indique su Email">
+                                <label for="telefono">Telenofo : </label>
+                                <input type="number" name="telefono" id="telefono" placeholder="Indique su telefono">
+                            </div>
+                        </div>
+
+
+
+                        <div class="nacionalidad">
+                            <label for="sexo">Sexo : </label>
+                            <label>Hombre</label>
+                            <input type="radio" name="sexo" value="hombre">
+                            <label>Mujer</label>
+                            <input type="radio" name="sexo" value="mujer">
+                            <label>Otro</label>
+                            <input type="radio" name="sexo" value="otro">
+                            <p>Nacionalidad</p>
+                            <select name="nacionalidad">
+                                <option value="colombiano">Colombiano</option>
+                                <option value="argentino">Argentino</option>
+                                <option value="mexicano">Mexicano</option>
+                                <option value="español">Español</option>
+                                <option value="cubano">Cubano</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <p>Dejanos tu Mensaje por favor : </p>
+                            <textarea name="mensaje" cols="70" rows="5"></textarea>
+                        </div>
+
+
+                        <div class="buttons">
+                            <p> Terminos y condiciones.<a href="#"> Ver</a></p>
+                            <input type="checkbox" name="terminos y condiciones" required>
+                            <label>Acepto terminos y Condiciones</label>
+
+                            <div class="enviar">
+                                <input type="submit" name="enviar">
+                                <input type="reset" name="borrar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="cont-map">
+
+                    <div class="map-tex">
+                        <h3>
+                            Mundo Inmobiliario
+                        </h3>
+                        <p>Carrera 64 #42a -26 Barrio, Conquistadores</p>
+                        <p>Medellin, Colombia</p>
+                        <p>Tel: (+604) 5732841</p>
+                    </div>
+
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1280411375105!2d-75.58477828536984!3d6.246852995478271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a9b3ac639f%3A0x9fb301aa9bbdd309!2sCra.%2064%20%2342b-26%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1636424812305!5m2!1ses!2sco"
+                            width="570" height="380" style="border: 2px solid rgb(82, 80, 80);" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------------------FOOTER------------------------------------------------------------->
+
+    <footer class="footer">
+
+
+        <div class="container">
+
+
+            <div class="footer-logo">
+                <div class="logo-i">
+                    <i class="fab fa-medium-m"></i>
+                </div>
+                <h2>Mundo Inmobiliario</h2>
+            </div>
+
+            <div class="footer-grid">
+
+                <div class="footer-info">
+                    <p>
+                        Si quieres hablar con nosotros, te invitamos a visitarnos en
+                        cualquiera de nuestras oficinas. También puedes contactarnos por
+                        teléfono o correo electrónico. Te esperamos para poder empezar a
+                        ofrecerte soluciones.
+                    </p>
+                    <div class="footer-icon">
+                        <div class="phone">
+                            <span><i class="fas fa-phone-alt"></i></span>
+                            <h2>(+604) 3485261</h2>
+                        </div>
+                        <div class="e-mail">
+                            <span><a href="contactos.html"><i class="fas fa-envelope"></i></a></span>
+                            <span><a href="contactos.html">
+                                    <h2>Correo@hotmail.com</h2>
+                                </a></span>
+                        </div>
+                        <a href="https://www.facebook.com/" target="_black"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" target="_black"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_black"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.twitter.com/" target="_black"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-sedes">
+                    <h2>Oficinas</h2>
+                    <a href="#">Poblado</a>
+                    <a href="#">Laureles</a>
+                    <a href="#">Envigado</a>
+                    <a href="#">Sabaneta</a>
+                    <a href="#">Itagui</a>
+                </div>
+
+                <div class="footer-nav">
+                    <a href="">Inicio</a>
+                    <a href="">Quienes Somos</a>
+                    <a href="">Servicios</a>
+                    <a href="">Registra tu Inmueble</a>
+                    <a href="">Contactos</a>
+                </div>
+
+                <div class="footer-legal">
+                    <span><a href="#">Aviso Legal</a></span>
+                    <a href="#">Politica de Cookies</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="container">
+                <p>Copyright @ 2021 - Diseño Web Realizado por <b> Orlando Contreras </b></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
