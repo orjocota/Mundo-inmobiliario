@@ -1,0 +1,421 @@
+//pantalla extra grandes//
+@media screen and (max-width: 576px) {
+
+    /* Pagina principal de la Web INDEX*/
+    .cabeza{
+        height: 100px;
+        position: fixed;
+         .row{
+            flex-direction: column;
+        }    
+        .icon{ 
+            text-align: center;
+            a{
+            font-size: 20px;
+            }
+        }
+        .mail{
+            text-align: center;
+            a{
+                font-size: 20px;
+            }
+            span{
+                font-size: 20px;
+                font-weight: 700; 
+            }
+        }       
+        .tel{
+            text-align: center;
+            width: 100%;
+            i{
+                font-size: 20px;  
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+    header{
+        top: 100px;
+        height: 80px;
+    }
+    .menu{
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(66, 65, 65);
+        height: auto;
+        width: 100%;
+        left: 0;
+        top: 180px;
+        padding: 0;
+        left: 100%;
+        transition: left 0.3s;
+        li{
+            padding: 10px 0px;
+            &:hover .sub-menu{
+                visibility: hidden;               
+            }
+            a{
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 40px;
+        font-size: 40px;
+    }
+    .menu_visible{
+        left: 0;
+    }
+    .logo{
+        span{
+            font-size: 29px;
+        }
+    }
+    .banner{
+        height: 700px;
+        margin-top: 180px;
+    }
+    .cont-ban{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 50%; 
+        .post{
+            width: 380px;
+            height: 250px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .publi{
+            h2{
+                font-size: 22px;
+                padding: 5px 0px;
+            }
+            h3{
+                font-size: 18px;
+                padding: 5px 0px;
+            }
+            button{
+                font-size: 15px;
+                }
+            }
+    }
+    .conta-busq {
+        grid-template-columns: repeat(2, 1fr);
+        height: 230px;
+        label {
+          font-size: 20px;
+        }
+        select {
+          font-size: 15px;
+          width: 200px;
+          height: 30px;
+        }
+      }
+      .button {
+        grid-column: 1/3;
+      }
+      .conta-busq button {
+        font-size: 17px;
+        padding: 10px 30px;
+        
+        &:hover {
+          background-color: #36d1dc;
+          border: 1px solid rgb(68, 67, 67);
+          cursor: pointer;
+          font-weight: 900;
+          font-size: 17px;
+        }
+      }
+      .cont-img-decor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+          color: grey;
+          width: 350px;
+          height: 150px;
+        }
+      
+        p {
+          padding: 0px 15px;
+          font-size: 25px;
+          width: 500px;
+        }
+      
+        h2 {
+          font-size: 25px;
+          text-align: center;
+          width: 400px;
+        }
+      
+        h3 {
+          margin-top: 15px;
+          font-size: 22px;
+          text-align: center;
+        }
+      }
+      .sec-secundaria {
+        flex-direction: column;
+        margin-top: 30px;      
+        img {
+          width: 200px;
+          height: 200px;
+          margin: 15px 0px;  
+        }
+      }
+      .section-img{
+        grid-template-columns: repeat(1, auto);
+      }
+      .conten1-img figure{
+        width: 360px;
+        height: 260px;
+      }
+      .titulo-galeria {
+      h2 {
+        font-size: 45px;
+      }
+    }
+    .seccion-galeria{
+        grid-template-columns: repeat(1, auto);
+    }
+    .card {
+        width: 350px;
+        height: 380px;
+      }
+      .img-ali{
+          flex-direction: column;
+          width: 100%;
+      }
+      .footer {
+        height: 710px;
+        width: 100%; 
+      }
+      .footer-logo {
+        flex-direction: column;
+        margin-top: 15px;
+      }       
+      .footer-logo h2 {
+        font-size: 30px;
+      }
+      .footer-grid {
+        grid-template-rows: repeat(4, auto);
+      }
+      .footer-info {
+          grid-column: 1/4;
+          grid-row: 1/2;
+      }
+      .phone,.e-mail{
+          display: inline-block;
+          margin-right: 10px;
+      }
+      .footer-icon{
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }                  
+      .footer-sedes {
+        margin: 20px 0px;
+        h2{
+          color: #9e9c9c;
+          font-weight: 900;      
+        }
+      }
+      .footer-nav {
+          margin-top: 60px;
+        a {
+            font-size: 18px;
+            padding: 5px 0px;
+          }
+      }
+      .footer-end {
+        height: 60px;
+      }
+      .banner-q {
+        height: 160px;
+        margin-top:150px;        
+      }
+      .cont-h2{
+        h2{
+          padding: 20px;
+        }
+      }
+      /*------------------------------------------------- CUERPO DE QUIENES SOMOS ------------------------------------------------*/
+
+      .img-q-1, .img-q-2, .img-q-3{
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .banner-q{
+          margin: 180px 0px 0px 0px;
+      }
+      .row{
+          flex-direction: column;
+      }
+      .historia{
+        h2{
+          font-weight: 700;
+          margin-top: 10px;
+        }
+        p{
+            font-size: 17px;
+        }
+      }
+      .mision-1{
+          flex-direction: column-reverse;
+      }
+      .mision {
+        h2{
+          margin-top: 10px;
+        }
+        p{
+            font-size: 17px;
+        }
+      }
+      .vision {
+        h2{
+          font-weight: 700;
+          margin-top: 10px;
+        }
+        p{
+            font-size: 17px;
+        }
+      }
+      .cuerpo{
+        margin-top: 10px;
+      }
+      .titulo-serv{
+        height: 100px;
+        h2{
+          font-size: 38px;
+        }
+      }
+      .cont-card{
+        grid-template-columns: repeat(1, auto);
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .card-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .card{
+        height: 500px;
+        margin-bottom: 10px;
+      }           
+      .caja-otros-servicios{
+        margin-top: 30px;
+        flex-direction: column;
+      }
+      .contato-img{
+          text-align: center;
+        margin-top: 180px;
+        img{
+          width: 400px;
+          height: 350px;
+        }
+      }
+      .titulo-contacto{
+        margin-top: 40px;
+        h1{
+          text-align: center;
+          font-size: 30px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .conta-in-contacto {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
+      }
+      .form-contacto {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+      .cont-map {
+        grid-column: 1/2;
+        grid-row: 2/3;
+      }
+      .form-1-contacto{
+          .name{
+              display: flex;
+              flex-direction: column;
+              .name-1, .name-2{
+                  input{
+                      width: 400px;
+                  }
+              }
+          }
+      }
+      .nacionalidad{
+          textarea{
+              width: 400px;
+          }
+      }
+      .cont-map{
+          div{
+            
+            iframe{
+                width: 440px;
+                height: 400px;
+                margin-left: 5px;
+                  
+            }
+          }
+      }
+      .cont-img-reg{
+        width: 400px;
+        height: 380px;
+      }
+      .leyenda-reg{
+        h2{
+          font-size: 25px;
+        }
+        p{
+          font-size: 17px;
+        }
+        h3{
+          font-size: 30px;
+        }
+      }
+      .formulario-reg{
+          flex-direction: column;
+          .form-registra{
+              .conta-1-reg, 
+              .conta-2-reg,
+              .conta-3-reg{
+                  input, select, textarea{
+                      width: 400px;
+                  }
+              } 
+          }
+          .aside{
+              align-items: flex-start;
+          }
+      }
+      .formulario-reg .form-registra .enviar {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .cont-card{
+        .card{
+            width: 350px !important;
+        }
+    }
+
+ 
+
+
+
+
+}

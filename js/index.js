@@ -9,3 +9,10 @@ for (let i =0; i<menuLength; i++){
     }
 }
 //codigo del Menu Hamburgesa//
+
+const navToggle = document.querySelector(".nav-toggle");
+const navMenu = document.querySelector(".menu");
+
+navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("menu_visible");
+})
