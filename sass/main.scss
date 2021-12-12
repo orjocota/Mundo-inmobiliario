@@ -109,7 +109,7 @@ header{
         }
     }
     span{
-        font-size: 38px;
+        font-size: 30px;
         color: rgb(158, 156, 156);
         font-weight: 700;
         margin-left: 15px;
@@ -199,7 +199,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 560px;
+    height: 530px;
     margin-top: 105px;
 }
 .cont-ban{
@@ -208,11 +208,11 @@ header{
     align-items: center;
     height: 50%; 
     .post{
-        width: 600px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
         img{
-            width: 100%;
-            height: 100%;
+            width: 75%;
+            height: 70%;
         }
     }
     .publi{
@@ -220,7 +220,7 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 70%;
+        width: 95%;
         h2{
             font-size: 45px;
             color: white;
@@ -228,6 +228,7 @@ header{
             font-weight: 900;
             text-transform: uppercase;
             margin: 0;
+            text-align: center;
         }
         h3{
             font-size: 30px;
@@ -235,6 +236,7 @@ header{
             padding: 20px;
             font-weight: 700;
             margin: 0;
+            text-align: center;
         }
         button{
             font-size: 20px;
@@ -617,15 +619,14 @@ header{
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-wrap: wrap;
           div{
               height: 100%;
-              width: 33%;
+              width: 100%;
               text-align: center;
               padding: 30px 15px;
               img{
-                  width: 150px;
-                  height: 100px;
+                  width: 90%;
+                  height: 90%;
               }
           }
       }      
@@ -816,8 +817,8 @@ header{
 }
 /*------------------------------------------------- CUERPO DE QUIENES SOMOS ------------------------------------------------*/
 
-.cuerpo{
-  margin-top: 20px;
+.cuerpo-quienes{
+  margin-top: 120px;
 }
 .img-q-1, .img-q-2, .img-q-3{
   img{
@@ -905,10 +906,10 @@ header{
   justify-content: space-around;
   align-items: center;
   .caja-int{
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     img{
-      width: 100%;
+      width: 95%;
     }
     h2{
       text-align: center;
@@ -939,9 +940,13 @@ header{
 }
 /*------------------------------------------------------CONTACTOS--------------------------------------------------------------*/
 .contato-img{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
   margin-top: 110px;
+  width: 100%;
   img{
-    width: 100%;
+    width: 80%;
     height: 450px;
   }
 }
@@ -980,13 +985,11 @@ header{
 
 .form-contacto {
   grid-column: 1/2;
-  grid-row: 2/3;
   display: flex;
   flex-direction: column;
 }
 .cont-map {
   grid-column: 2/3;
-  grid-row: 2/3;
 }
 
 .form-1-contacto {
@@ -1040,7 +1043,7 @@ form label {
   }
 
   p {
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
     font-size: 18px;
     color:rgb(54, 53, 53);
     font-weight: 900;
@@ -1057,6 +1060,8 @@ textarea {
   border: 2px solid rgb(128, 125, 125);
   border-radius: 8px;
   padding-left:3px;
+  width: 90%;
+  height: 120px;
 }
 
 .buttons {
@@ -1086,30 +1091,36 @@ textarea {
     transform: scale(1.1);
   }
 }
-
-.map-tex {
-  margin-bottom: 50px;
-
-  h3 {
-    font-size: 30px;
-    color: rgb(54, 53, 53);
-    letter-spacing: 2px;
-    font-weight: 900;
-  }
-
-  p {
-    margin-top: 30px;
-    line-height: 1.2px;
-    color: rgb(54, 53, 53);
-    font-weight: 900;
+.cont-map{
+  .map-tex {
+    margin-bottom: 50px;
+  
+    h3 {
+      font-size: 30px;
+      color: rgb(54, 53, 53);
+      letter-spacing: 2px;
+      font-weight: 900;
+    }
+  
+    p {
+      margin-top: 30px;
+      line-height: 1.2px;
+      color: rgb(54, 53, 53);
+      font-weight: 900;
+    }
+    .inframe{
+      margin-right: 20px;
+    }
+  
   }
 }
+
 /*-------------------------------------------------REGISTRA TU INMUEBLE-------------------------------------------------------------*/
 .cont-img-reg{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  width: 80%;
   height: 300px;
   margin: auto;
   margin-top: 110px;
@@ -1161,7 +1172,7 @@ textarea {
         padding-bottom: 5px;
       }
       input{
-        width: 500px;
+        width: 100%;
         height: 30px;
         vertical-align: center;
         padding-left: 4px;
@@ -1177,7 +1188,7 @@ textarea {
         padding-bottom: 5px;
       }
       select{
-        width: 500px;
+        width: 100%;
         height: 30px;
         vertical-align: center;
         padding-left: 4px;
@@ -1186,7 +1197,7 @@ textarea {
         border-radius: 8px;
       }
       input{
-        width: 500px;
+        width: 100%;
         height: 30px;
         vertical-align: center;
         padding-left: 4px;
@@ -1202,7 +1213,7 @@ textarea {
         padding-bottom: 5px;
       }
       textarea{
-        width: 550px;
+        width: 100%;
         height: 150px;
         vertical-align: center;
         padding-left: 4px;
@@ -1217,7 +1228,7 @@ textarea {
       color: red;
     }
     .enviar{
-      width: 550px;
+      width: 100%;
       text-align: right;
       height: 50px;
       button{
@@ -1291,5 +1302,5 @@ textarea {
   }
 }
 /*-------------------------------------MODO RESPONSIVE PARA TRES TIPOS DE PANTALLAS---------------------------------------------------*/
-@import 'medias';
+ @import 'medias'; 
 
