@@ -22,6 +22,58 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+/*--------------------------------------------PAGE NO FOUND--------------------------------------------------------*/
+.fondo{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to left, rgba(11,130,203,1) 27%, rgba(11,130,203,1) 32%, rgba(10,120,193,1) 47%, rgba(9,103,174,1) 74%);
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #312f2f;
+  .img{
+    width: 600px;
+  }
+  .leyend{
+    width: 600px;
+    h1{
+      font-size: 40px;
+      text-transform: uppercase;
+      padding: 20px 0px;
+    }
+    h2{
+      font-size: 45px;
+    }
+    p{
+      font-size: 20px;
+      padding: 20px 0px;
+      line-height: 25px;
+      margin-bottom: 15px;
+    }
+    a{
+      font-size: 17px;
+      color: white;
+      text-decoration: none;
+      background-color: slateblue;
+      padding: 10px 20px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      &:hover{
+        background-color: rgb(74, 63, 150);
+      }
+    }
+  }
+}
 /*-----------------------------------------CABEZERA PRINCIPAL---------------------------------------------*/
 .cabeza{
     background-color: rgb(156, 155, 155); 
